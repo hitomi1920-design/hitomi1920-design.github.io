@@ -766,11 +766,6 @@ footer .link ul li a {
 	height: auto;
 }
 
-#conteiner {
-	display: flex;
-	flex-direction: column;
-}
-
 #conteiner.reverse {
 	display: flex;
 	flex-direction: column-reverse;
