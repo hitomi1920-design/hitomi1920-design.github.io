@@ -547,7 +547,7 @@ header#illust_home{
 }
 
 header#illust_home.show{
-    transform: translaateY(0);
+    transform: translateY(0);
 	opacity: 1;
     pointer-events: auto;
 }
@@ -638,7 +638,7 @@ header#illust_home.show{
     display: flex;
     justify-content: right; 
     align-items: center;
-    background: #fff
+    background: #fff;
     padding: 40px 0;
     scroll-snap-align: start; /* スナップさせたい場合 */
 }
@@ -717,7 +717,9 @@ footer .link ul li a {
 }
 
 .inner {
-	width: 306px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
 .topBtn_works {
