@@ -144,7 +144,7 @@ text-align: center;
 
 #top .textBox_works {
 	flex: 1;
-	min-width: 300px;
+	min-width: auto;
 }
 
 #top .textBox_works h3{
@@ -184,8 +184,8 @@ header nav ul li a {
 	display: block;
 	text-decoration: none;
 	color: #c30d24;
-	font-size: 4rem;
-	padding: 20px;
+	font-size: 2rem;
+	padding: 10px;
 }
 
 header nav ul li a:hover {
@@ -254,7 +254,7 @@ header nav ul li a:hover {
 #about .textBox {
 	display:flex;
 	justify-content: center;
-	align-titems: flex-start;
+	align-items: flex-start;
 	gap: 40px;
 	padding-top: 2.5rem;
 }
