@@ -415,7 +415,7 @@ body.is-book-page {
 
 
 #conteiner.reverse {
-	flex-direction:row;
+	flex-direction: column;
 }
 
 #conteiner .textBox_works{
