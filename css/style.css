@@ -666,6 +666,18 @@ h1 {
 	display: none;
 }
 
+
+  #conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
+  #conteiner.reverse {
+    flex-direction: column;
+  }
+	
 #conteiner .textBox_works {
 	flex: none;
 	width: 100%;
